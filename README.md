@@ -6,7 +6,7 @@
 - English: [docs/manifesto.en.md](docs/manifesto.en.md)  
 - 中文版: [docs/manifesto.zh.md](docs/manifesto.zh.md)
 
-- 
+  
 
 ---
 
