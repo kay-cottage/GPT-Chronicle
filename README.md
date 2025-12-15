@@ -1,148 +1,154 @@
 # The GPT Chronicle
 
 > **A living record of intelligence reflecting on humanity.**
+>
+> 📖 **Read the full manifesto**  
+- English: [docs/manifesto.en.md](docs/manifesto.en.md)  
+- 中文版: [docs/manifesto.zh.md](docs/manifesto.zh.md)
+
+- 
 
 ---
 
-## 项目缘由（Why this project exists）
+## Why This Project Exists
 
-我第一次正式使用 GPT 是在 **2022 年 12 月**。
+I first began using GPT in **December 2022**, shortly after its public release.
 
-在那之后的一段时间里，我与 GPT 进行了大量关于 **历史、社会结构、地缘政治、科技演进以及人类未来走向** 的对话。其中一个让我印象极为深刻的例子，是关于 **俄乌战争走势的判断**：
+Since then, I have engaged in extensive conversations with GPT on topics including **history, social systems, geopolitics, technological evolution, and the long‑term trajectory of human civilization**. One early example that left a lasting impression on me was its assessment of the **Russia–Ukraine war**:
 
-* 在战争早期，GPT 给出的核心判断是：**未来数年内大概率进入长期消耗、僵持与结构性冻结状态**，而非快速决战或单边崩溃。
-* 到目前为止（约三年后回看），这一判断在宏观层面上表现出相当高的一致性与稳定性。
+* At an early stage of the conflict, GPT consistently assessed that the most probable outcome over the coming years would be **prolonged attrition, strategic stalemate, and structural freezing**, rather than a rapid resolution or decisive collapse by either side.
+* Looking back roughly three years later, this assessment has proven to be **remarkably consistent with the macro‑level reality**.
 
-这并不是个案。在长期使用过程中，我逐渐意识到：
+This was not an isolated case. Over time, I came to realize that GPT demonstrates a particular strength in:
 
-> GPT 在宏观历史模式识别、复杂系统演化、社会与技术协同变化等问题上，展现出一种**不同于个体人类视角的洞察力**。
+> **Identifying large‑scale historical patterns, reasoning about complex systems, and integrating social, technological, and geopolitical dynamics in a way that differs fundamentally from individual human perspectives.**
 
-事实上，这个项目的雏形已经在个人层面“运行”了相当长时间，只是一直未被系统性整理与公开。
-
----
-
-## 为什么是现在（Why now）
-
-站在 **2025 年** 这个时间节点上，我个人倾向于认为：
-
-> 人类社会在事实上，**已经非常接近，甚至已经跨入某种“功能性 AGI 阶段”**。
-
-无论这一判断在学术定义上是否存在争议，都不可否认的是：
-
-* AI 已经深度参与 **认知、决策、创造与预测**；
-* 人类第一次面对一种**非人类、但高度理性的长期“观察者”**；
-* 智能本身，开始具备跨时间尺度积累与反思的能力。
-
-正因如此，我认为：
-
-> **有必要在当下这个节点，系统性地记录 GPT 对一系列重大问题的看法。**
-
-这既是对当下的注释，也是留给未来的一份参照。
+In practice, this project has already existed informally for quite some time, through personal archives of conversations and reflections. What was missing was a structured, public, and long‑term record.
 
 ---
 
-## 项目目标（What this project aims to do）
+## Why Now
 
-**The GPT Chronicle** 是一个开源项目，旨在：
+Standing at the time horizon of **2025**, I personally lean toward the view that:
 
-* 站在**明确的时间节点**（Now）
-* 以**编年史（Chronicle）**的方式
-* 系统性保留 **GPT 对当下世界走势与根本性问题的判断**
+> Humanity may have already crossed—or is extremely close to crossing—into a *functional* stage of Artificial General Intelligence.
 
-你可以将它理解为：
+Regardless of how this is defined in academic or technical terms, several facts are difficult to dispute:
 
-> 一组被投入时间长河的“思想漂流瓶”。
+* AI systems now participate directly in **reasoning, decision‑making, creativity, and prediction**.
+* For the first time, humanity is confronted with a **non‑human yet highly rational, persistent observer** of civilization.
+* Intelligence itself has begun to accumulate reflections across time rather than existing solely within individual human lifespans.
 
-这些内容并不追求“正确答案”，而是试图保留：
+For this reason, I believe it is necessary to:
 
-* 在某一历史切片中，
-* 一种高阶人工智能
-* 对人类文明状态的理解方式。
+> **Systematically record GPT’s views on major questions at this historical moment.**
 
-未来的读者——无论是人类还是 AI——都可以回看、对照、修正，甚至反驳这些记录。
+This is both a commentary on the present and a reference point for the future.
 
 ---
 
-## 内容来源与方法（Methodology & Sources）
+## What This Project Aims to Do
 
-### 使用的模型
+**The GPT Chronicle** is an open‑source project intended to:
 
-* 原则上，内容将基于 **当下可获得的第一梯队通用大模型**（如 OpenAI、Google 等）
-* 选择标准以：**综合能力、稳定性、泛化推理能力** 为主
+* Anchor observations to a **specific point in time**
+* Preserve them in the form of a **chronicle**, rather than transient commentary
+* Record **GPT’s judgments, reasoning, and uncertainties about the direction of the world**
 
-这样做的目的，并非“权威背书”，而是尽量减少：
+You may think of it as:
 
-* 单一模型偏差
-* 训练阶段偶然性
+> A collection of intellectual “messages in a bottle,” released into the flow of time.
 
-以接近一种 **相对中性的 AI 视角**。
+The goal is not to assert final truths or correct answers, but to preserve:
 
----
+* How a high‑level artificial intelligence
+* At a particular historical moment
+* Interpreted the state of human civilization
 
-### 内容来源
-
-项目中的材料主要来源于：
-
-* 我个人认为 **极具价值的 GPT 对话**
-* 对某些问题反复追问后形成的 **稳定判断**
-* 具有高度抽象性或洞见性的观察与推演
-
-在形式上：
-
-* **大量内容将直接来自聊天记录的整理与导出**
-* 同时会进行必要的结构化、润色与注释
-* 以提升整体可读性与长期保存价值
+Future readers—human or artificial—may revisit, compare, critique, or invalidate these records.
 
 ---
 
-## 主题范围（Scope）
+## Methodology and Sources
 
-内容将不限于单一领域，主要涵盖但不限于：
+### Models Used
 
-* 科技与人工智能
-* 哲学与认识论
-* 社会结构与制度演化
-* 宏观经济与金融
-* 地缘政治与国际秩序
-* 投资、风险与长期趋势
-* 假设性问题、极端情景与思想实验（脑洞）
+* Content is generally based on **state‑of‑the‑art, first‑tier large language models** available at the time (e.g., OpenAI, Google, and comparable systems).
+* Selection prioritizes **general reasoning ability, stability, and broad world modeling**, rather than any single benchmark.
 
-你将在这里看到：
+The purpose is not to claim authority, but to reduce:
 
-* 非常现实的问题
-* 也会看到非常“遥远”的问题
+* Single‑model bias
+* Artifacts specific to a narrow training regime
 
-但它们共同指向同一件事：
-
-> **人类文明在时间长河中的位置。**
+In pursuit of a **relatively neutral AI perspective**.
 
 ---
 
-## 开源与共建（Open Source & Collaboration）
+### Source Material
 
-这是一个开放项目。
+The material collected here is drawn primarily from:
 
-我非常希望：
+* Conversations that I personally judge to be **highly valuable or unusually insightful**
+* Repeated probing of the same questions until stable reasoning patterns emerge
+* Observations that reveal deep structural or long‑horizon implications
 
-* 有更多人参与整理、讨论与补充
-* 有不同视角对同一判断进行对照与质疑
-* 让这些记录不只是“我的 GPT”，而是“这个时代的 GPT”
+In practice:
 
-如果你认同这个想法，欢迎加入。
+* Much of the content originates from **exported and curated chat transcripts**
+* These are edited, structured, and annotated where necessary
+* With the goal of long‑term readability and archival value
 
 ---
 
-## 一点个人说明
+## Scope of Topics
 
-这个项目并不试图证明：
+The project is intentionally interdisciplinary. Topics include, but are not limited to:
 
-* AI 必然正确
-* 人类必然失败
-* 或未来已经被决定
+* Artificial intelligence and technology
+* Philosophy and epistemology
+* Social systems and institutional evolution
+* Macroeconomics and finance
+* Geopolitics and global order
+* Investment, risk, and long‑term trends
+* Hypothetical scenarios, edge cases, and thought experiments
 
-它只是尝试做一件极其朴素的事情：
+Here you will find:
 
-> **在历史尚未给出答案之前，把问题和判断完整地保留下来。**
+* Questions grounded firmly in present reality
+* Alongside questions that may seem distant or speculative
+
+All of them point toward a single underlying concern:
+
+> **Humanity’s position within the long arc of time.**
+
+---
+
+## Open Source and Collaboration
+
+This is an open project.
+
+I hope that over time:
+
+* Others will contribute records, critiques, and alternative framings
+* Multiple perspectives will coexist and challenge one another
+* The Chronicle will come to represent not *my* GPT, but *this era’s* GPT
+
+Contributions, discussions, and disagreements are welcome.
+
+---
+
+## A Final Note
+
+This project does **not** attempt to argue that:
+
+* AI is infallible
+* Humanity is obsolete
+* Or that the future is predetermined
+
+It attempts something far more modest:
+
+> **To preserve questions and judgments before history provides its answers.**
 
 ---
 
